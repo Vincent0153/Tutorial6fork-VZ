@@ -34,3 +34,12 @@ p2 <- ggplot(data, aes(x = x, y = y)) +
 grid.arrange(p1, p2)
 ```
 
+```{r new figure}
+set.seed(123)
+x <- rnorm(100)
+y <- rnorm(100)
+
+# Create a scatter plot
+plot(x, y, main = "Random Scatter Plot", xlab = "X-axis", ylab = "Y-axis")
+```
+
